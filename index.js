@@ -15,3 +15,7 @@ exports.right = function(str){
   if (str.trimRight) return str.trimRight();
   return str.replace(/\s*$/, '');
 };
+
+exports.trimAll = function(str) {
+  return str.replace(/\s+/g, '');
+};
