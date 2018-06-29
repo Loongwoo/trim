@@ -15,6 +15,7 @@ $ component install component/trim
    - [trim(str)](#trimstr)
    - [.left(str)](#leftstr)
    - [.right(str)](#rightstr)
+   - [.trimAll(str)](#trimAllStr)
 <a name="" />
  
 <a name="trimstr" />
