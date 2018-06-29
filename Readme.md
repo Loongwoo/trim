@@ -43,6 +43,15 @@ trim.right('  foo bar  ').should.equal('  foo bar');
 ```
 
 
+<a name="trimAllStr" />
+### .trimAll(str)
+should trim all whitespace.
+
+```js
+trim.trimAll('  foo bar  ').should.equal('foobar');
+```
+
+
 ## License 
 
 (The MIT License)
